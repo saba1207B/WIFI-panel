@@ -9,11 +9,17 @@ An ultra-lightweight, native Android utility that provides instant, one-tap acce
 
 It is especially useful on devices where the regular Wi-Fi Settings activity opens the wrong screen or behaves unexpectedly.
 
+> ⚠️ **Experimental project — Not production ready.** This project is intended for testing, experimentation, and personal use.
+
 ## 📥 Download
 
-**[Download the latest debug APK from GitHub Actions](https://github.com/saba1207B/WIFI-panel/actions/runs/36123899878#artifacts)**
+[![Download Experimental APK](https://img.shields.io/badge/Download-Experimental%20APK-orange?style=for-the-badge&logo=android)](https://github.com/saba1207B/WIFI-panel/releases/latest)
 
-> The APK is built automatically by GitHub Actions. The current workflow artifact is a debug build intended for testing and direct installation. GitHub Actions artifacts have a limited retention period, so a future version can be published as a GitHub Release for a permanent download.
+**Download the APK from the [Releases](https://github.com/saba1207B/WIFI-panel/releases) page.**
+
+The current release is a **pre-release experimental debug build**. It is not intended for production deployment or Google Play distribution.
+
+GitHub Actions is used to build and verify the APK, but **Releases are the official download location** for users.
 
 ## ✨ Features
 
@@ -108,7 +114,7 @@ Build the debug APK with:
 gradle assembleDebug
 ```
 
-The GitHub Actions workflow also builds the APK automatically on pushes and pull requests to `main`.
+GitHub Actions automatically builds and verifies the debug APK on pushes and pull requests to `main`.
 
 ## 📂 Project Structure
 
@@ -119,13 +125,17 @@ The GitHub Actions workflow also builds the APK automatically on pushes and pull
 - `FallbackActivity` — fallback/error screen
 - `WifiPanelLauncher` — centralized Wi-Fi panel intent handling
 
-## ⚠️ Important
+## ⚠️ Experimental Status
 
-This application does **not** replace or modify Android's Settings application.
+This project is **not production ready**.
 
-It simply provides a convenient shortcut to the system Wi-Fi panel.
+It was created primarily as an experimental workaround for a Wi-Fi Settings behavior observed on certain Motorola/Android 16 devices.
 
-If the manufacturer changes or removes the `android.settings.panel.action.WIFI` intent in a future Android/system update, compatibility may change.
+Compatibility and behavior may vary depending on the device manufacturer and Android version.
+
+This application does **not** replace, modify, or repair the Android Settings application.
+
+If the manufacturer changes or removes the `android.settings.panel.action.WIFI` intent in a future system update, compatibility may change.
 
 ## 📄 License
 
