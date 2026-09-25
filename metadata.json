@@ -1,0 +1,6 @@
+{
+  "name": "WiFi Panel Launcher",
+  "description": "One-tap direct access to Android's system Wi-Fi popup panel with widget, Quick Settings tile, and launcher shortcuts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

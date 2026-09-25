@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">WiFi Panel Launcher</string>
+    <string name="app_short_name">Wi-Fi</string>
+    
+    <!-- Quick Settings Tile -->
+    <string name="tile_name">Wi-Fi Panel</string>
+    <string name="tile_label">Wi-Fi</string>
+    <string name="tile_subtitle">Wi-Fi Panel</string>
+
+    <!-- Widget -->
+    <string name="widget_name">Wi-Fi Panel</string>
+    <string name="widget_description">One-tap direct access to Android\'s system Wi-Fi panel.</string>
+
+    <!-- Launcher Shortcuts -->
+    <string name="shortcut_open_wifi">Open Wi-Fi</string>
+    <string name="shortcut_open_wifi_long">Open System Wi-Fi Panel</string>
+
+    <!-- Fallback UI -->
+    <string name="fallback_title">WiFi Panel Launcher</string>
+    <string name="fallback_subtitle">Quick access to Android\'s system Wi-Fi controls.</string>
+    <string name="fallback_btn_open">Open Wi-Fi Panel</string>
+    <string name="wifi_panel_unavailable">Wi-Fi panel is unavailable on this device.</string>
+    <string name="wifi_panel_desc">This utility provides direct access to the native Android system Wi-Fi panel. The app does not create a custom Wi-Fi network list or replacement settings screen.</string>
+    
+    <!-- Access Methods -->
+    <string name="method_launcher_title">Launcher Icon</string>
+    <string name="method_launcher_desc">Tap the app icon to open the system Wi-Fi panel directly.</string>
+    <string name="method_widget_title">Home Screen Widget</string>
+    <string name="method_widget_desc">Add the compact 1x1 or 2x1 widget for one-tap access.</string>
+    <string name="method_tile_title">Quick Settings Tile</string>
+    <string name="method_tile_desc">Add the \"Wi-Fi Panel\" tile to your notification pull-down shade.</string>
+    <string name="method_shortcut_title">Long-Press Shortcut</string>
+    <string name="method_shortcut_desc">Long-press the app icon and tap \"Open Wi-Fi\".</string>
+
+    <!-- Diagnostics -->
+    <string name="diagnostics_title">Device Diagnostics</string>
+    <string name="intent_action_label">Target Intent</string>
+    <string name="intent_action_value">android.settings.panel.action.WIFI</string>
+    <string name="panel_status_label">System Panel Status</string>
+    <string name="status_ready">Ready &amp; Supported</string>
+    <string name="status_unsupported">Unavailable on this ROM/Device</string>
+    <string name="zero_permissions_label">Privacy &amp; Security</string>
+    <string name="zero_permissions_desc">0 permissions, 0 network activity, 0 background battery drain.</string>
+</resources>
